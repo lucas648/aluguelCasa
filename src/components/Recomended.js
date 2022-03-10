@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, ImageBackground, Text } from "react-native"
 
-export default function New(props){
+export default function Recomended(props){
   return (
     <ImageBackground
       source={props.cover}

@@ -43,14 +43,14 @@ export default function Home(){
           name="Casa Flórida"
           description="Linbda casa, novíssima e perto de tudo que voê precisa"
           price="1.540,90"
-          onPress={()=>{}}
+          onPress={()=>{navigation.navigate('detail')}}
         />
         <New
           cover={require('../assets/house3.jpg')}
           name="Casa Alphavile"
           description="Perto de tudo, completa e bem equipada com tudo que você precisa"
           price="2.500,90"
-          onPress={()=>{}}
+          onPress={()=>{navigation.navigate('detail')}}
         />
       </ScrollView>
 
